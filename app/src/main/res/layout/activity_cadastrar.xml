@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CadastrarActivity">
+
+    <LinearLayout
+        android:layout_width="388dp"
+        android:layout_height="574dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="12dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="303dp"
+            android:layout_height="228dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/bemvindo" />
+
+        <EditText
+            android:id="@+id/editCadastroNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="NOME"
+            android:inputType="textPersonName"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="TELEFONE"
+            android:inputType="phone"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/editCadastroEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="EMAIL"
+            android:inputType="textEmailAddress"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/editCadastroSenha1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="SENHA"
+            android:inputType="textPassword"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="cadastrarPessoa"
+            android:text="CADASTRAR" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
